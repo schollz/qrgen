@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"io/ioutil"
 	"os"
 	"runtime"
@@ -51,5 +52,7 @@ func main() {
 		cfg.WhiteChar = qrterminal.WHITE
 	}
 
-	qrterminal.GenerateWithConfig(strings.TrimSpace(string(data)), cfg)
+	qrdata := strings.TrimSpace(string(data))
+	fmt.Println(qrdata)
+	qrterminal.GenerateWithConfig(qrdata, cfg)
 }
