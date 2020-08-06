@@ -30,7 +30,7 @@ func getLevel(s string) qr.Level {
 
 func main() {
 	levelFlag = "l"
-	quietZoneFlag = 2
+	quietZoneFlag = 1
 	level := getLevel(levelFlag)
 
 	data, err := ioutil.ReadAll(os.Stdin)
