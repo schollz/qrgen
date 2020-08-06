@@ -25,6 +25,9 @@ alias share='f() { curl --progress-bar --upload-file "$1" https://share.schollz.
 
 ![Example](https://user-images.githubusercontent.com/6550035/89547118-387fa600-d7ba-11ea-8dc1-0e689c5c20ff.png)
 
+## Website
+
+The html code in this repo is for a super simple QR code reader webpage. You can host it yourself or use the one I'm hosting at https://schollz.com/qr/.
 
 ## Acknowledgements
 
